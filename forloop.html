@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>for loop</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var pri = [{
+    		'name':'Dharshi',
+    		'rollno':52,
+    		'college':'ADTP',
+    		'branch':'ECE',
+    	},
+    	{
+    	    'name':'Anya',
+    		'rollno':53,
+    		'college':'ACET',
+    		'branch':'CSE',
+    	},
+    	{
+    		'name':'prans',
+    		'rollno':114,
+    		'college':'ACES',
+    		'branch':'IT',
+    	}]
+    	console.log(pri)
+    	console.log(pri.length)
+		for (var i = 0; i < pri.length; i++) {
+			document.write(pri[i].name,pri[i].rollno,pri[i].college,pri[i].branch);
+		}
+	</script>
+</body>
+</html>

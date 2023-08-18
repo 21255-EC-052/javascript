@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>var_let_const</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a = 10;
+		document.write(a);
+		let b = 20;
+		// let b = 20;redeclaration is not possible
+		 b = 20;//reintialisation is possible
+		 document.write(b);
+		 {
+		 	let c = 40;
+		 	document.write(c);
+		 }
+		 // document.write(c); not possible bcoz let is a block scope variable
+		 const pi = 3.14;
+		 //pi = 4.20;
+		 document.write(pi);
+		 const rollno = 21255-EC-52;
+		 document.write(rollno);
+		 //document.write(pi);
+	</script>
+
+</body>
+</html>
